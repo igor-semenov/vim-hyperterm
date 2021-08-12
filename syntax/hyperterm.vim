@@ -2,7 +2,7 @@
 " Author: Igor Semenov
 " Description: terminal color codes with location highlight
 
-if exists("b:current_syntax")
+if exists("b:hyperterm_syntax")
   finish
 endif
 
