@@ -4,4 +4,5 @@
 
 " Location - filename.ext:line or filename.ext:line:column
 syntax match hypertermLocation /[a-zA-Z0-9\/\-_.]\+:\d\+\(:\d\+\)\=/
+highlight hypertermLocation           ctermfg=DarkCyan    guifg=DarkCyan      cterm=underline     gui=underline
 
