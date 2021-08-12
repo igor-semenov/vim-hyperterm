@@ -5,10 +5,6 @@
 setlocal autoread
 setlocal colorcolumn=
 
-if has("conceal")
-  setlocal conceallevel=3 concealcursor=nv 
-endif
-
 " Parse location link
 function! s:ParseLocation(log_str)
   let result = {}
